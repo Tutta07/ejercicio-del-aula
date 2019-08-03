@@ -1,17 +1,109 @@
 body
     {
      
-        background-color: hsl(160, 80%, 67%);
+        background-color:rgb(63, 19, 19);
         background-size: cover;
      margin: 0%;
+   
 
      
      }
+     h1{
+         text-align: center;font-family: 'Times New Roman', Times, serif; color: aqua;
+     }
+     p{
+         text-align: center;text-indent: 30px;margin-left: 20px;margin-right: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aqua;}
+     
 h2{
-    text-align: center;
+    text-align: center; font-family: 'Times New Roman', Times, serif; color: aqua;
 }
+/*li{
+    font-family: 'Times New Roman', Times, serif; color: aqua;
+}*/
 #foto1{
+ text-align: center;
+ 
+}
  
 #foto2{
+    text-align: center;
+}
+#foto5{
+    text-align: center
+}
+footer{
+       padding: 0px;
+       margin: 0px;
+       font-family: 'Times New Roman', Times, serif;
+       box-sizing: border-box;
+       color: white;
+       background-color: rgb(63, 10, 10);
+       width:100%;
+
+}
+.container-footer-all{
+width: 100%;
+max-width: 1200%;
+}
+.container-body{
+    display: flex;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h3{
+    font-size: 20px;
+}
+.colum1 p{
+    font-size: 14px;
+    margin-top: 19px;
+    color:white;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h3{
+    font-size: 20px;
+}
+.colum2 row{
+    margin-top: 19px;
+    display: flex;
+}
+.row img{
+    width: 35px;
+    height: 35px;
+}
+ol{
+   color:aqua;
+   display: contents;
+   margin: 1px;
+  
+  
+}
+ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            background-color:aqua; 
+            overflow: hidden;
+}
+li{
+    float: right;
+}
+li a{/* listas linkeadas*/
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
     
 }
+li a:visited{/* cuando el link es visitado fica azulin*/
+    columns: #008080;
+}
+li a:hover{/*cuando pase el puntero encima de ella cambie el color*/
+ background-color: aquamarine;
+ columns: #a52a2a;
+}
+
+
