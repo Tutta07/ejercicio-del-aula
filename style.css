@@ -1,7 +1,7 @@
 body
     {
      
-        background-color:rgb(63, 19, 19);
+        background-color:rgb(217, 227, 247);
         background-size: cover;
      margin: 0%;
    
@@ -9,13 +9,14 @@ body
      
      }
      h1{
-         text-align: center;font-family: 'Times New Roman', Times, serif; color: aqua;
+         text-align: center;font-family: 'Times New Roman', Times, serif; color: rgb(17, 48, 48);
      }
      p{
-         text-align: center;text-indent: 30px;margin-left: 20px;margin-right: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aqua;}
+         text-align: center; line-height: 1.4;font-family: 'Times New Roman', Times, serif; color: rgb(17, 48, 48);
+         text-align: center;text-indent: 30px;margin-left: 20px;margin-right: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:}
      
 h2{
-    text-align: center; font-family: 'Times New Roman', Times, serif; color: aqua;
+    text-align: center; font-family: 'Times New Roman', Times, serif; color:rgb(17, 48, 48) ;
 }
 /*li{
     font-family: 'Times New Roman', Times, serif; color: aqua;
@@ -44,6 +45,7 @@ footer{
 .container-footer-all{
 width: 100%;
 max-width: 1200%;
+
 }
 .container-body{
     display: flex;
@@ -73,12 +75,18 @@ max-width: 1200%;
     width: 35px;
     height: 35px;
 }
+.row2{
+    
+}
 ol{
    color:aqua;
    display: contents;
    margin: 1px;
   
-  
+}
+ol li{
+    color: blue;
+    float: none;
 }
 ul{
             list-style-type: none;
@@ -104,6 +112,9 @@ li a:visited{/* cuando el link es visitado fica azulin*/
 li a:hover{/*cuando pase el puntero encima de ella cambie el color*/
  background-color: aquamarine;
  columns: #a52a2a;
+}
+.container-footer{
+    line-height: 1.0;
 }
 
 
