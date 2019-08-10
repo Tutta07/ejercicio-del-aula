@@ -82,11 +82,13 @@ ol{
    color:aqua;
    display: contents;
    margin: 1px;
+   
   
 }
 ol li{
     color: blue;
-    float: none;
+    float:none; 
+    
 }
 ul{
             list-style-type: none;
