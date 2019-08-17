@@ -1,10 +1,8 @@
 body
     {
-     
-        background-color:rgb(217, 227, 247);
-        background-size: cover;
+      background-color:rgb(217, 227, 247);
+     background-size: cover;
      margin: 0%;
-   
 
      
      }
@@ -75,20 +73,15 @@ max-width: 1200%;
     width: 35px;
     height: 35px;
 }
-.row2{
     
-}
-ol{
+ /*ol{
    color:aqua;
    display: contents;
    margin: 1px;
-   
-  
 }
 ol li{
     color: blue;
-    float:none; 
-    
+    float:none;   
 }
 ul{
             list-style-type: none;
@@ -100,7 +93,7 @@ ul{
 li{
     float: right;
 }
-li a{/* listas linkeadas*/
+ /*li a{/* listas linkeadas
     display: block;
     color: blue;
     text-align: center;
@@ -108,15 +101,78 @@ li a{/* listas linkeadas*/
     text-decoration: none;
     
 }
-li a:visited{/* cuando el link es visitado fica azulin*/
+li a:visited{/* cuando el link es visitado fica azulin
     columns: #008080;
 }
-li a:hover{/*cuando pase el puntero encima de ella cambie el color*/
+li a:hover{/*cuando pase el puntero encima de ella cambie el color
  background-color: aquamarine;
  columns: #a52a2a;
-}
+}*/
 .container-footer{
     line-height: 1.0;
 }
+ #disc{
+    width: 50%;
+    max-width: 200px;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #999999;
+}
+#disc ul{
+    text-align: right;
+    padding: 0;
+}
+.disc li{
+    display: inline-block;
+    padding: 16px;
+}
+.bot-disc:hover{
+background: rgb(90, 90, 236);
+transform: scale(1.2);
+color: antiquewhite;
+}
+.bot-disc:visited
+{
+  color: rgb(122, 101, 240);
+}
+.bot-disc{
+    display:-moz-inline-box;
+    background: rgb(107, 247, 247);
+    text-decoration: none;
+    padding: 7px;
+    color: black;
+    border-block-style: rgb(9, 114, 114), 2px;
+    margin: 0 10px;
+    transition: all 1.2s;
+}
+#navegador ul{
+    text-align: right;
+    padding: 0;
+}
+#navegador li{
+    display: inline;
+    padding: 10px;
+}
+.bot-nav:hover{
+    background: #034747;
+    transform: scale(1.4);
+    color: white;
+}
+ul{
+    list-style: none;
+}
 
-
+.bot-nav{
+    background: aqua;
+    display:inline-block;
+    padding: 5px;
+    color: black;
+    border:solid #999 2px;
+    margin: 0 10px;
+    transition: all 1.4s;
+    text-decoration: none;
+    
+}
+#
+    
