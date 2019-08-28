@@ -1,42 +1,190 @@
 body
     {
-      background-color:rgb(217, 227, 247);
+     background-color: white;
      background-size: cover;
-     margin: 0%;
-
-     
+     margin: 1%;
+     padding: 1px;
+     background-image: url(imagens/marca\ de\ agua.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 200vh;
      }
      h1{
-         text-align: center;font-family: 'Times New Roman', Times, serif; color: rgb(17, 48, 48);
+         text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:rgb(58, 245, 58);
+         padding: 10px;
      }
      p{
-         text-align: center; line-height: 1.4;font-family: 'Times New Roman', Times, serif; color: rgb(17, 48, 48);
-         text-align: center;text-indent: 30px;margin-left: 20px;margin-right: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:}
+         text-align: center; line-height: 1.6;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(3, 31, 6);
+     }
+       
      
-h2{
-    text-align: center; font-family: 'Times New Roman', Times, serif; color:rgb(17, 48, 48) ;
+ h2{
+    text-align: center; font-family: 'Times New Roman', Times, serif;color:rgb(5, 56, 5);
 }
-/*li{
-    font-family: 'Times New Roman', Times, serif; color: aqua;
-}*/
-#foto1{
- text-align: center;
- 
+#navegador ul{
+    text-align: right;
+    padding: 0;
 }
- 
-#foto2{
+#navegador li{
+    display: inline;
+    padding: 10px;
+}
+.bot-nav:hover{
+    background: #024d26;
+    transform: scale(1.4);
+    color: white;
+}
+ul{
+    list-style: none;
+}
+
+.bot-nav{
+    background: rgb(21, 201, 51);
+    display:inline-block;
+    padding: 5px;
+    color:rgb(2, 54, 2);
+    border:solid #999 2px;
+    margin: 1 15px;
+    transition: all 1.4s;
+    text-decoration: none;
+    
+}
+
+.disc ul{
     text-align: center;
+    padding: 1px;
 }
-#foto5{
-    text-align: center
+.disc li{
+    display: inline-block;
+    padding: 30px;
 }
+.bot-disc:hover{
+background: #024d26;
+transform: scale(1.4);
+color: white;
+}
+.bot-disc:visited
+{
+  color: rgb(122, 101, 240);
+}
+.bot-disc{
+  display: inline-block;
+    background: rgb(21, 201, 51);
+    text-decoration: none;
+    padding: 5px;
+    color:rgb(2, 54, 2);
+    border-block-style: rgb(18, 136, 7), 2px;
+    border:solid #999 2px;
+    margin: 1 1px;
+    transition: all 1.2s;
+}
+
+
+
+.carrousel fotos{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow:0px 0px 20px 0px green; /*para q la foto tenga una sombra verde*/
+    transition: all 300ms;
+    padding: 5%;
+}
+.carrousel fotos:hover{ /*cuando se toque la foto se elimine la sombra*/
+    box-shadow: 0px 0px 0px 0px;
+    transition: all 300ms;
+}
+.carrousel:hover{ /*Cuando pasemos el mouse por cima de una foto se pare la animacion*/
+    animation-play-state: paused;
+    cursor: pointer; /*tipo de cursor*/
+}
+/*.carrousel fotos:nth-child(1){
+    transform:rotateY(0deg) translateZ(300px);
+}
+.carrousel fotos:nth-child(2){
+    transform:rotateY(40deg) translateZ(300px);
+}
+.carrousel fotos:nth-child(3){
+    transform:rotateY(80deg) translateZ(300px);
+}
+.carrousel fotos:nth-child(4){
+    transform:rotateY(120deg) translateZ(300px);
+}
+.carrousel fotos:nth-child(5){
+    transform:rotateY(160deg) translateZ(300px);
+}
+.carrousel fotos:nth-child(6){
+    transform:rotateY(200deg) translateZ(300px);
+}
+.carrousel fotos:nth-child(7){
+    transform:rotateY(240deg) translateZ(300px);
+}
+.carrousel fotos:nth-child(8){
+    transform:rotateY(280deg) translateZ(300px);
+}
+.carrousel fotos:nth-child(9){
+    transform:rotateY(320deg) translateZ(300px);
+}
+.carrousel fotos:nth-child(10){
+    transform:rotateY(360deg) translateZ(300px);/*para q rote 360grad y se traslade 300px
+}*/
+.carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 15s infinite linear; /*Para que rote cada 10s y no se pare, sea infinita
+    transform-style: preserve-3d;
+}
+
+.biogra{
+    perspective: 900px;
+    width: 200px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    }
+
+.carrousel img{
+    width: 100%;
+    transition: all 300ms;
+}
+.carrousel img:hover{
+    transform: scale(1.3);/* quando se ponga el mouse encima de la img esta se agrande*/
+    transition: all 300ms;
+}
+/*Para controlar la animacion,deg=grados, comienza a rotar en y en 0grados hasta y en 360*/
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+} 
+
+
+#sos{ /*boton del sos*/
+    background: #03a51e;
+    font-family: 'Lexend Mega', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 5px;
+    position: fixed;
+    right: 1em;
+    top: 1em;
+  }
+  
+
+
+
+
 footer{
        padding: 0px;
        margin: 0px;
        font-family: 'Times New Roman', Times, serif;
        box-sizing: border-box;
        color: white;
-       background-color: rgb(63, 10, 10);
+       background-color: rgb(2, 48, 14);
        width:100%;
 
 }
@@ -74,105 +222,10 @@ max-width: 1200%;
     height: 35px;
 }
     
- /*ol{
-   color:aqua;
-   display: contents;
-   margin: 1px;
-}
-ol li{
-    color: blue;
-    float:none;   
-}
-ul{
-            list-style-type: none;
-            margin: 0px;
-            padding: 0px;
-            background-color:aqua; 
-            overflow: hidden;
-}
-li{
-    float: right;
-}
- /*li a{/* listas linkeadas
-    display: block;
-    color: blue;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    
-}
-li a:visited{/* cuando el link es visitado fica azulin
-    columns: #008080;
-}
-li a:hover{/*cuando pase el puntero encima de ella cambie el color
- background-color: aquamarine;
- columns: #a52a2a;
-}*/
 .container-footer{
     line-height: 1.0;
 }
- #disc{
-    width: 50%;
-    max-width: 200px;
-    margin: 2em;
-    padding: 2em;
-    border-radius: 10px;
-    box-shadow: 0 0 8px #999999;
-}
-#disc ul{
-    text-align: right;
-    padding: 0;
-}
-.disc li{
-    display: inline-block;
-    padding: 16px;
-}
-.bot-disc:hover{
-background: rgb(90, 90, 236);
-transform: scale(1.2);
-color: antiquewhite;
-}
-.bot-disc:visited
-{
-  color: rgb(122, 101, 240);
-}
-.bot-disc{
-    display:-moz-inline-box;
-    background: rgb(107, 247, 247);
-    text-decoration: none;
-    padding: 7px;
-    color: black;
-    border-block-style: rgb(9, 114, 114), 2px;
-    margin: 0 10px;
-    transition: all 1.2s;
-}
-#navegador ul{
-    text-align: right;
-    padding: 0;
-}
-#navegador li{
-    display: inline;
-    padding: 10px;
-}
-.bot-nav:hover{
-    background: #034747;
-    transform: scale(1.4);
-    color: white;
-}
-ul{
-    list-style: none;
-}
 
-.bot-nav{
-    background: aqua;
-    display:inline-block;
-    padding: 5px;
-    color: black;
-    border:solid #999 2px;
-    margin: 0 10px;
-    transition: all 1.4s;
-    text-decoration: none;
-    
-}
-#
+
+
     
