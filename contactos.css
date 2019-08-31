@@ -1,0 +1,101 @@
+#btn-menu{
+    display: none;
+}
+#btn-menu:checked ~ .menu{
+    margin: 0;
+    left: 10px;
+    padding: 0;
+    margin-left: -55%;
+
+ }
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 70px;
+    border-radius: 1px;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+#navegador ul{
+    text-align: right;
+    padding: 0;
+}
+#navegador li{
+    display: inline;
+    padding: 10px;
+}
+.bot-nav:hover{
+    background: #024d26;
+    transform: scale(1.4);
+    color: white;
+}
+ul{
+    list-style: none;
+}
+
+.bot-nav{
+    background: rgb(21, 201, 51);
+    display:inline-block;
+    padding: 5px;
+    color:rgb(2, 54, 2);
+    border:solid #999 2px;
+    margin: 1 15px;
+    transition: all 1.4s;
+    text-decoration: none; 
+}
+
+body
+{
+ background-color: white;
+ background-size: cover;
+ margin: 1%;
+ padding: 1px;
+ background-image: url(imagens/marca\ de\ agua.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: 200vh;
+ }
+ 
+ h2{
+    text-align: center; font-family: 'Times New Roman', Times, serif;color:rgb(5, 56, 5);
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0,0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+}
+#boton{
+    background: rgb(2, 43, 2);
+    padding: 20px;
+    color: rgb(69, 224, 69);
+}
+#boton:hover{
+    cursor: pointer;
+}
+/*para que sea responsivo*/
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+} 
