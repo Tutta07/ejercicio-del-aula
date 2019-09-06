@@ -1,78 +1,4 @@
 
-/*Body*/
-body
-    {
-     background-color: white;
-     background-size: cover;
-     margin: 1%;
-     padding: 1px;
-     background-image: url(imagens/marca\ de\ agua.png);
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: 200vh;
-     }
-     h1{
-         text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:rgb(58, 245, 58);
-         padding: 10px;
-     }
-     p{
-         text-align: center; line-height: 1.6;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(3, 31, 6);
-     }
-       
-     
- h2{
-    text-align: center; font-family: 'Times New Roman', Times, serif;color:rgb(5, 56, 5);
-}
-
-#btn-menu{
-    display: none;
-}
-#btn-menu:checked ~ .menu{
-    margin: 0;
-    left: 10px;
-    padding: 0;
-    margin-left: -55%;
-
- }
-header label{
-    display: none;
-    width: 30px;
-    height: 30px;
-    padding: 70px;
-    border-radius: 1px;
-}
-header label:hover{
-    cursor: pointer;
-    background: rgba(0,0,0,0.3);
-}
-#navegador ul{
-    text-align: right;
-    padding: 0;
-}
-#navegador li{
-    display: inline;
-    padding: 10px;
-}
-.bot-nav:hover{
-    background: #024d26;
-    transform: scale(1.4);
-    color: white;
-}
-ul{
-    list-style: none;
-}
-
-.bot-nav{
-    background: rgb(21, 201, 51);
-    display:inline-block;
-    padding: 5px;
-    color:rgb(2, 54, 2);
-    border:solid #999 2px;
-    margin: 1 15px;
-    transition: all 1.4s;
-    text-decoration: none; 
-}
-
 /*Discografia*/
 .disc ul{
     text-align: center;
@@ -103,139 +29,6 @@ color: white;
     transition: all 1.2s;
 }
 
-/*Carrousel
-
-.carrousel fotos{
-    width: 100%;
-    height: 120px;
-    position: absolute;
-    overflow: hidden;
-    box-shadow:0px 0px 20px 0px green; /*para q la foto tenga una sombra verde
-    transition: all 300ms;
-    padding: 5%;
-}
-.carrousel fotos:hover{ /*cuando se toque la foto se elimine la sombra
-    box-shadow: 0px 0px 0px 0px;
-    transition: all 300ms;
-}
-.carrousel:hover{ /*Cuando pasemos el mouse por cima de una foto se pare la animacion
-    animation-play-state: paused;
-    cursor: pointer; /*tipo de cursor
-}
-.carrousel fotos:nth-child(1){
-    transform:rotateY(0deg) translateZ(300px);
-}
-.carrousel fotos:nth-child(2){
-    transform:rotateY(40deg) translateZ(300px);
-}
-.carrousel fotos:nth-child(3){
-    transform:rotateY(80deg) translateZ(300px);
-}
-.carrousel fotos:nth-child(4){
-    transform:rotateY(120deg) translateZ(300px);
-}
-.carrousel fotos:nth-child(5){
-    transform:rotateY(160deg) translateZ(300px);
-}
-.carrousel fotos:nth-child(6){
-    transform:rotateY(200deg) translateZ(300px);
-}
-.carrousel fotos:nth-child(7){
-    transform:rotateY(240deg) translateZ(300px);
-}
-.carrousel fotos:nth-child(8){
-    transform:rotateY(280deg) translateZ(300px);
-}
-.carrousel fotos:nth-child(9){
-    transform:rotateY(320deg) translateZ(300px);
-}
-.carrousel fotos:nth-child(10){
-    transform:rotateY(360deg) translateZ(300px);/*para q rote 360grad y se traslade 300px
-}
-.carrousel{
-    width: 100%;
-    position: relative;
-    animation: rotar 15s infinite linear; /*Para que rote cada 10s y no se pare, sea infinita
-   transform-style: preserve-3d;
-}*/
-
-/*.biogra{
-    perspective: 900px;
-    width: 200px;
-    position: relative;
-    margin: auto;
-    margin-top: 20px;
-    }
-
-.carrousel img{
-    width: 100%;
-    transition: all 300ms;
-}
-.carrousel img:hover{
-    transform: scale(1.3);/* quando se ponga el mouse encima de la img esta se agrande
-    transition: all 300ms;
-}
-/*Para controlar la animacion,deg=grados, comienza a rotar en y en 0grados hasta y en 360
-@keyframes rotar{
-    from{
-        transform: rotateY(0deg);
-    }
-    to{
-        transform: rotateY(360deg);
-    }
-} */
-
-
-
-/*Version 2 del Carrusel Responsive
-#c-slider{
-    margin: auto;
-    width: 85%;
-    max-width: 900px;
-    position: relative;
-    overflow: hidden;
-   box-shadow: 0 0 0 10px rgb(90, 250, 90),
-               0 15px 50px;
-
-}
-#slider{
-    display: -webkit-flex;
-    display:flex;
-    width: 500%;
-}
-#slider section{
-    width: 100%;
-}
-#slider img{
- display: block;
- width: 100%;
- height: 100%;
-}
-#btn-prev,#btn-next{
-    width: 35px;
-    height: 35px;
-    background: rgb(107, 236, 135);
-    color: #024d26;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-40%);
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 40%;
-    cursor: pointer;
-    font-family: monospace;
-    line-height: 35px;
-}
-#btn-prev{
-    left: 10px;
-}
-#btn-next{
-    right: 10px;
-}
-#btn-prev:hover,#btn-next:hover{
-    background: rgb(179, 247, 179);
-}*/
 
 /*version 3 carrusel de mierda*/
 #carouselExampleIndicators {
@@ -250,107 +43,12 @@ color: white;
     max-height: 400px;
     margin: auto;
    
-    
   }
   #carouselExampleIndicators body{
       display: flex;
   }
 
-/*boton del michael*/
-#michael{ 
-    background: #03a51e;
-    font-family: 'Lexend Mega', sans-serif;
-    color: white;
-    text-decoration: none;
-    padding: 4px;
-    border-radius: 5px;
-    position: fixed;
-    left: 1em;
-    top: 1em;
-  }
- 
 
-/*Footer*/
-footer{
-       margin: 0px;
-       font-family: 'Times New Roman', Times, serif;
-       box-sizing: border-box;
-       color: white;
-       background-color: rgb(2, 48, 14);
-    
-}
-.container-footer-all{
-
-max-width: 1200px;
-margin: auto;
-padding: 5px;
-}
-.container-body{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-.colum1{
-    max-width: 400px;
-}
-.colum1 h3{
-    font-size: 22px;
-}
-.colum1 p{
-    font-size: 14px;
-    margin-top: 20px;
-    color:white;
-    text-align: left;
-}
-.colum2{
-    max-width: 400px;
-}
-.colum2 h3{
-    font-size: 22px;
-
-}
-.colum2 row{
-    margin-top: 19px;
-    display: flex;
-}
-.row img{
-    width: 35px;
-    height: 35px;
-}
-    
-.container-footer{
-
-    background: rgb(1, 26, 1);
-    display:flex;
-    padding: 10px;
-    justify-content:center;
-}
-
-
-.row label{
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.colum3{
-    max-width: 400px;
-}
-.colum3 h3{
-    font-size: 22px;
-}
-
-.row2 {
-margin-top: 20px;
-display: flex;
-}
-.row2 img{
-    width: 35px;
-    height: 35px;
-}
-.row2 label{
- margin-left: 20px;
- max-width: 160px;
- margin-top: 10px;
-}
 
 
 /*Responsive del footer*/
@@ -392,6 +90,12 @@ display: flex;
        }
     .disc li{
         display: grid;
+    }
+    @media (max-width:690px){
+        #carouselExampleIndicators img {
+          max-height: 100%;
+          max-width: 50%;
+        }
     }
     
 

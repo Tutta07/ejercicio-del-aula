@@ -1,0 +1,167 @@
+body
+    {
+     background-color: white;
+     background-size: cover;
+     margin: 1%;
+     padding: 1px;
+     background-image: url(imagens/marca\ de\ agua.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 200vh;
+     }
+     h1{
+         text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:rgb(58, 245, 58);
+         padding: 10px;
+     }
+     p{
+         text-align: center; line-height: 1.6;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(3, 31, 6);
+     }
+       
+     
+ h2{
+    text-align: center; font-family: 'Times New Roman', Times, serif;color:rgb(5, 56, 5);
+}
+
+#btn-menu{
+    display: none;
+}
+#btn-menu:checked ~ .menu{
+    margin: 0;
+    left: 10px;
+    padding: 0;
+    margin-left: -55%;
+
+ }
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 70px;
+    border-radius: 1px;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+#navegador ul{
+    text-align: right;
+    padding: 0;
+}
+#navegador li{
+    display: inline;
+    padding: 10px;
+}
+.bot-nav:hover{
+    background: #024d26;
+    transform: scale(1.4);
+    color: white;
+}
+ul{
+    list-style: none;
+}
+
+.bot-nav{
+    background: rgb(21, 201, 51);
+    display:inline-block;
+    padding: 5px;
+    color:rgb(2, 54, 2);
+    border:solid white 2px;
+    margin: 1 10px;
+    transition: all 1.4s;
+    text-decoration: none; 
+}
+/*boton del michael*/
+#michael{ 
+    background: #03a51e;
+    font-family: 'Lexend Mega', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 5px;
+    position: fixed;
+    left: 1em;
+    top: 1em;
+  }
+ 
+
+/*Footer*/
+footer{
+       margin: 0px;
+       font-family: 'Times New Roman', Times, serif;
+       box-sizing: border-box;
+       color: white;
+       background-color: rgb(2, 48, 14);
+    
+}
+.container-footer-all{
+
+max-width: 1200px;
+margin: auto;
+padding: 5px;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h3{
+    font-size: 22px;
+}
+.colum1 p{
+    font-size: 14px;
+    margin-top: 20px;
+    color:white;
+    text-align: left;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h3{
+    font-size: 22px;
+
+}
+.colum2 row{
+    margin-top: 19px;
+    display: flex;
+}
+.row img{
+    width: 35px;
+    height: 35px;
+}
+    
+.container-footer{
+
+    background: rgb(1, 26, 1);
+    display:flex;
+    padding: 10px;
+    justify-content:center;
+}
+
+
+.row label{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h3{
+    font-size: 22px;
+}
+
+.row2 {
+margin-top: 20px;
+display: flex;
+}
+.row2 img{
+    width: 35px;
+    height: 35px;
+}
+.row2 label{
+ margin-left: 20px;
+ max-width: 160px;
+ margin-top: 10px;
+}
