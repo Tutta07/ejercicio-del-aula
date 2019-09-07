@@ -9,22 +9,22 @@
     padding: 30px;
 }
 .bot-disc:hover{
-background: #024d26;
+background: #0b6927;
 transform: scale(1.4);
-color: white;
+color: rgb(37, 4, 4);
 }
 .bot-disc:visited
 {
-  color: rgb(122, 101, 240);
+  color: rgb(215, 211, 238);
 }
 .bot-disc{
   display: inline-block;
-    background: rgb(21, 201, 51);
+    background: rgb(4, 41, 10);
     text-decoration: none;
     padding: 5px;
-    color:rgb(2, 54, 2);
+    color:black;
     border-block-style: rgb(18, 136, 7), 2px;
-    border:solid #999 2px;
+    border:solid rgb(4, 165, 17) 2px;
     margin: 1 1px;
     transition: all 1.2s;
 }

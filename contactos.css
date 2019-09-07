@@ -18,11 +18,11 @@ form{
     margin-top: 25px;
     border-radius: 10px;
 }
-h3{
+h4{
     color:rgb(4, 34, 4);
     text-align: center;
-    margin: 0;
-    font-size: 30px;
+    margin: 2px;
+    font-size: 40px;
     margin-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
