@@ -6,7 +6,7 @@
         width: 100%;
     }
 } 
-.formulario{
+/*.formulario{
     width: 400px;
     max-width: 100px;
     margin: auto;
@@ -34,4 +34,19 @@
 .formulario_label{
     padding-left: 15px;
     position: absolute;
+}
+*/
+
+.formulario{
+    margin: auto;
+}
+
+form{
+    width: 400px;
+    max-width: 100px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0.3, 0, 0.3);
+    position: relative;
 }

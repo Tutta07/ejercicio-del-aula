@@ -1,0 +1,49 @@
+
+
+/*para que sea responsivo*/
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+} 
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+h3{
+    color:rgb(4, 34, 4);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+    
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background: rgb(21, 201, 51);
+    padding: 10px;
+    border-radius: 10px;
+}
+#boton:hover{
+    cursor:pointer;
+}

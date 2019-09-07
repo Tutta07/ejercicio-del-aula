@@ -4,17 +4,21 @@ body
      background-size: cover;
      margin: 1%;
      padding: 1px;
-     background-image: url(imagens/marca\ de\ agua.png);
-     background-position: center;
-     background-repeat: no-repeat;
+     background-image: url(imagens/fondo1.jpg);
+     background-repeat: repeat;
      background-size: 200vh;
      }
      h1{
-         text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:rgb(58, 245, 58);
-         padding: 10px;
+         text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:rgb(4, 34, 4);
+         padding: 12px;
      }
      p{
-         text-align: center; line-height: 1.6;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(3, 31, 6);
+          text-align: center;
+          line-height: 1.6;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color:rgb(4, 34, 4);
+          font-weight: bold;
+          margin: 20px;
      }
        
      
@@ -23,7 +27,7 @@ body
 }
 
 #btn-menu{
-    display: none;
+    display:none;
 }
 #btn-menu:checked ~ .menu{
     margin: 0;
@@ -165,3 +169,54 @@ display: flex;
  max-width: 160px;
  margin-top: 10px;
 }
+
+/*Responsive del footer*/
+@media screen and (max-width:1100px){
+    .container-body{
+        flex-wrap: wrap;
+    }
+    .colum1{
+        max-width: 100%;
+    }
+    .colum2,.colum3{
+        margin-top: 40px;
+    }
+}   
+/*Responsive del navegador*/
+   @media (max-width:750px){
+
+       header label{
+           display: block;
+       }
+       #navegador{
+           position: absolute;
+           width: 75%;
+           margin-left: -75%;
+       }
+       #navegador li{
+       display: block;
+       padding: 2%;
+       margin: 2px;
+       margin-top: 0;
+       }
+       .bot-nav:hover{
+           transform: scale(1.1);
+       }
+       p{
+           line-height: 1.3;
+           text-align: end;
+       }
+       body{
+           background-size: 100vh;
+       }
+    .disc li{
+        display: grid;
+    }}
+
+    h3{
+        text-align: center;
+        color:rgb(4, 34, 4);
+        font-size: 40px;
+        background: rgba(0,0,0, 0.4);
+        margin-top: 30px;
+    }
