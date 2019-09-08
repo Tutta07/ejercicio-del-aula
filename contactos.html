@@ -39,11 +39,11 @@
 
         </header>
         <h4>Contato</h4>
-        <form action="enviar.php" method="POST">
-            <input type="text" name="Nome" placeholder="Nome" required>
-            <input type="text" name="Email" placeholder="Email" required>
-            <input type="text" name="Telefone" placeholder="Telefone" required>
-            <textarea name="Mensagem" placeholder="Escreva sua mensagem" required ></textarea>
+        <form action="enviar.php" method="POST" class="form-enviar" onsubmit="return validar();">
+            <input type="text" id="nome" name="Nome" placeholder="Nome" required >
+            <input type="email" id="email" name="Email" placeholder="Email" required>
+            <input type="text"  id="telefone" name="Telefone" placeholder="Telefone" required>
+            <textarea name="Mensagem" id="mensagem" placeholder="Escreva sua mensagem" required ></textarea>
             <input type="submit" value="Enviar" id="boton">
         </form>
 
