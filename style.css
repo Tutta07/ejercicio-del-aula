@@ -2,29 +2,32 @@
 /*Discografia*/
 .disc ul{
     text-align: center;
-    padding: 1px;
+    padding: 2px;
 }
 .disc li{
     display: inline-block;
     padding: 30px;
 }
 .bot-disc:hover{
-background: #0b6927;
+background: #d81515;
 transform: scale(1.4);
-color: rgb(37, 4, 4);
+border-block-style: rgb(240, 155, 155);
+border: solid rgb(114, 56, 56) 2px;
+
+
 }
 .bot-disc:visited
 {
-  color: rgb(215, 211, 238);
+  color: rgb(237, 236, 245);
 }
 .bot-disc{
   display: inline-block;
-    background: rgb(4, 41, 10);
+    background: rgb(4, 75, 16);
     text-decoration: none;
     padding: 5px;
-    color:black;
-    border-block-style: rgb(18, 136, 7), 2px;
-    border:solid rgb(4, 165, 17) 2px;
+    color:white;
+    border-block-style: rgb(4, 110, 69), 2px;
+    border:solid rgb(126, 187, 245) 2px;
     margin: 1 1px;
     transition: all 1.2s;
 }
@@ -53,10 +56,11 @@ color: rgb(37, 4, 4);
 
 
 
-    @media (max-width:690px){
+    @media (max-width:750px){
         #carouselExampleIndicators img {
+         
           max-height: 100%;
-          max-width: 50%;
+          max-width: 100%;
         }
     }
     
